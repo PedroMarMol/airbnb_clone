@@ -107,7 +107,3 @@ section  {
   border-radius: 2px;
   font-weight: bold;
 }
-
-.card--badge:empty {
-  display: none;
-}
