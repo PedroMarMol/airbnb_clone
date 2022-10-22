@@ -20,7 +20,7 @@ still be block elements, stacked vertically. We'll add styling later.
 export default function App() {
   const cardElements = data.map(data => {
     return (<Card 
-      img={data.coverImg}
+      img={data.img}
       rating={data.stats.rating}
       reviewCount={data.stats.reviewCount}
       location={data.location}

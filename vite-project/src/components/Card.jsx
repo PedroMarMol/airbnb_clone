@@ -3,7 +3,7 @@ import React from "react";
 export default function Card(props) {
     return (
         <div className="card--div">
-            <img src={`/public/images/${props.coverImg}`}/>
+            <img src={`/public/images/${props.img}`}/>
             <div>
                 <img src="/public/images/star.png"/>
                 <p>{props.rating}</p>
